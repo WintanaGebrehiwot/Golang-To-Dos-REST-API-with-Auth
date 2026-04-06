@@ -9,7 +9,7 @@ func main() {
 
 	r.GET("/", func(c *gin.Context) {
 		c.JSON(200, gin.H{
-			"message": "Docker is working 🚀",
+			"message": "Hello from Developer A 👋",
 		})
 	})
 
